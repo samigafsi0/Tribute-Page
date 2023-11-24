@@ -4,35 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <meta name="description" content="General information about Albert Einstein" />
+    <meta
+      name="description"
+      content="General information about Albert Einstein"
+    />
     <title>Albert Einstein Tribute</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA0x4zjjDbYoC5nTLk+i/KKTU0z78t9jKCrdPVGC83p258l27X7U+nK5uW"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <div>
+      <header class="hero">
+        <img
+          id="image"
+          src="./Albert_Einstein_Head.jpg"
+          alt="Albert Einstein Portrait"
+          class="img-fluid"
+        />
+        <h1>Albert Einstein: The Genius Who Changed Our World</h1>
+      </header>
+    </div>
+
     <main id="main">
-      <div id="title">
-        <h1>Dr. Albert "The Genius" Einstein<h1>
-        <h2>Master of Time and Space <h2>
-      </div>
-      <figure id="img-div">
-        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" />
-        <figcaption id="img-caption">Mr. Albert Einstein looking fine as usual, staring into space making you wonder whetheir there is really is something behind. Don't keep wondering just check behind you.</figcaption>
-      </figure>
-      <div id="tribute-info">
-        <ul>
-          <p id="paragraph"> Here are the most important awards given to him :</p>
-          <li><strong>1921 : </strong> Nobel Prize in Physics (about that theory about time travel and incredible stuff)</li>
-          <li><strong>1921 : </strong> Matteucci Medal (for his contribution in physics i guess)</li>
-          <li><strong>1925 : </strong> Copley Medal (i guess they give medals to everyone now)</li>
-          <li><strong>1926 : </strong> Gold Medal of the Royal Astronomical  (i have no idea what this one is for)</li>
-          <li><strong>1929 : </strong> Max Planck Medal (he ate a banana in less than 5 seconds to get this one)</li>
-          <li><strong>1935 : </strong> Franklin Medal (i can't believe he stole the guy's medal,...i know it's a very cheap joke)</li>
-          <li> Honorary degree (for being the best Albert Einstein around)</li>
-          <li> Barnard Medal for Meritorious Service to Science (why the long name though)</li>
-        </ul>
-      </div>
-      <div id="tribute-link-text">
-        <p> For more Details on this guy, hit the subscribe button on the channel and don't forget to press the like button this video..... wait.. I'm not on Youtube, Sorry bad habits. Here's the <a id="tribute-link" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">LINK</a> to his Wikipedia page, just read the informations yourself</p>
+      <div id="sections">
+        <section class="timeline">
+          <h2>A Journey Through Einstein's Life</h2>
+          <ul class="list-group">
+            <li class="list-group-item">1879: Born in Ulm, Germany</li>
+            <li class="list-group-item">
+              1905: Publishes four groundbreaking papers, including the theory
+              of relativity
+            </li>
+            <li class="list-group-item">
+              1921: Awarded the Nobel Prize in Physics
+            </li>
+            <li class="list-group-item">
+              1933: Flees Nazi Germany and settles in the United States
+            </li>
+            <li class="list-group-item">1955: Dies at the age of 76</li>
+          </ul>
+        </section>
+
+        <section class="biography">
+          <h2>The Man Behind the Genius</h2>
+          <p>
+            Albert Einstein was a German-born theoretical physicist who
+            developed the theory of relativity, one of the two pillars of modern
+            physics (alongside quantum mechanics). His work is also known for
+            its influence on the philosophy of science.
+          </p>
+
+          <blockquote class="blockquote">
+            <p>
+              Imagination is more important than knowledge. For knowledge is
+              limited, while imagination embraces the entire universe,
+              stimulating progress, giving birth to innovation.
+            </p>
+            <footer class="blockquote-footer">Albert Einstein</footer>
+          </blockquote>
+
+          <p>
+            Einstein is best known to the general public for his mass–energy
+            equivalence formula E=mc², which has been dubbed "the world's most
+            famous equation". He received the 1921 Nobel Prize in Physics "for
+            his services to theoretical physics, and especially for his
+            discovery of the law of the photoelectric effect", a crucial step in
+            the development of quantum theory.
+          </p>
+        </section>
+
+        <section class="humor">
+          <h2>Einstein's Wit and Wisdom</h2>
+
+          <p>
+            Despite his towering intellect, Albert Einstein was known for his
+            sense of humor and his ability to connect with people from all walks
+            of life.
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              "Anyone who has never made a mistake has never tried anything
+              new."
+            </li>
+            <li class="list-group-item">
+              "I never think of myself as a genius. I'm just curious and I like
+              to learn."
+            </li>
+          </ul>
+        </section>
+
+        <section class="call-to-action">
+          <h2>Keep Exploring Einstein's World</h2>
+          <p>
+            Continue your journey into the fascinating world of Albert Einstein
+            by visiting these resources:
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="https://en.wikipedia.org/wiki/Albert_Einstein"
+                >Albert Einstein Wikipedia Page</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.einstein.archives.caltech.edu/"
+                >Einstein Papers Project</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.nobelprize.org/prizes/physics/1921/einstein/"
+                >Albert Einstein Nobel Prize</a
+              >
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
-  </body
+    <footer>
+      <p>&copy; 2023 Albert Einstein Tribute Page</p>
+    </footer>
+  </body>
 </html>

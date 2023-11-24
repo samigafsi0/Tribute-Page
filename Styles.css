@@ -1,66 +1,123 @@
+
 body {
-    background-color: #008080;
-    padding: 0;
-    margin: 0;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  h1, h2, p, li {
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
-  }
-  
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+body,
+p,
+ul li {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  margin: 5% 0;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 2% auto;
+  padding: 1%;
+  max-width: 55rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+}
+
+#image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+main {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  padding: 1% 5%;
+  display: flex;
+}
+
+#sections {
+  max-width: 70%;
+  margin: 5% auto;
+}
+
+.timeline,
+.biography,
+.humor,
+.call-to-action {
+  margin-bottom: 20px;
+}
+
+.timeline h2,
+.biography h2,
+.humor h2,
+.call-to-action h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.timeline ul,
+.biography p,
+.humor ul,
+.call-to-action ul {
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.list-group-item {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3f51b5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
   h1 {
-    font-size: 24px;
-    text-align: center;
+    font-size: 32px;
   }
-  
+
   h2 {
-    font-size: 18px;
-    text-align: center;
+    font-size: 24px;
   }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  li {
-    font-size: 16px;
-  }
-  
-  #image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  #img-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  #img-caption {
-    font-size: 16px;
-  }
-  
-  #tribute-info {
-    background-color: #bfffff;
-    width: 100%;
-  }
-  
-  ul {
-    width: 70%;
-    margin: 10px auto;
-    padding-bottom: 20px;
-  }
-  
-  #tribute-link-text {
-    width: 90%;
-    margin: 10px auto; 
-  }
+}
